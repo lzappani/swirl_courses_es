@@ -2,6 +2,7 @@
 .Rhistory
 .Rproj.user
 swirl_courses.Rproj
+swirl_courses_es.Rproj
 .RData
 *.html
 .Rapp.history

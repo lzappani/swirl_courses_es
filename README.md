@@ -1,86 +1,86 @@
-# swirl courses
+# cursos de swirl
 
-This is a collection of interactive courses for use with the [swirl R package](http://swirlstats.com). You'll find instructions for installing courses further down on this page. Some courses are still in development and we'd love to hear any [suggestions](https://github.com/swirldev/swirl_courses/issues/new) you have as you work through them.
+Esta es una colección de cursos interactivos para usar con el [paquete de R swirl] (http://swirlstats.com). Encontrará instrucciones para instalar cursos más abajo en esta página. Algunos cursos están aun en desarrollo y nos encantaría escuchar cualquier [sugerencia] (https://github.com/swirldev/swirl_courses/issues/new) que tenga mientras los realiza.
 
-For more information regarding swirl, visit [swirlstats.com](http://swirlstats.com) or the [swirl GitHub repository](https://github.com/swirldev/swirl). If you'd like to write your own interactive content, please visit the [Instructors page](http://swirlstats.com/instructors.html) of our website.
+Para obtener más información sobre swirl, visite [swirlstats.com](http://swirlstats.com) o el [repositorio de swirl en GitHub](https://github.com/swirldev/swirl). Si desea escribir su propio contenido interactivo, visite la [página de instructores] (http://swirlstats.com/instructors.html) de nuestro sitio web.
 
-Here are our current offerings, organized by level of difficulty:
+Estos son los cursos que ofrecemos actualmente, organizadas por nivel de dificultad:
 
-#### Beginner
+#### Principiante
 
-- **R Programming**: The basics of programming in R
-- [**R Programming E**](https://github.com/swirldev/R_Programming_E): Same as the original, but modified slightly for in-class use (see below ***)
-- [**The R Programming Environment**](https://swirlstats.com/scn/rpe.html)
-<!-- - **Data Analysis**: Basic ideas in statistics and data visualization -->
-<!-- - **Mathematical Biostatistics Boot Camp**: One- and two-sample t-tests, power, and sample size -->
-<!-- - **Open Intro**: A very basic introduction to statistics, data analysis, and data visualization -->
+- **Programación en R**: Los fundamentos de la programación en R
+- [**Programación en R E**](https://github.com/swirldev/R_Programming_E): Es igual que el original, pero ligeramente modificado para uso en clase (ver más abajo ***)
+- [**El entorno de programación R**](https://swirlstats.com/scn/rpe.html)
+<!-- - **Análisis de datos**: Conceptos básicos de estadística y visualización de datos -->
+<!-- - **Campamento de entrenamiento de bioestadística matemática**: pruebas t con una o dos muestras, potencia y tamaño de la muestra -->
+<!-- - **Introducción abierta**: una introducción muy básica a las estadísticas, el análisis de datos y la visualización de datos -->
 
-\*\*\* *R Programming E is identical to R Programming, except we've eliminated the prompts for Coursera credentials at the end of each lesson and instead give students the option to send an email to their instructor notifying them of completion. Admittedly, it's sort of a hack until we come up with a more robust solution for in-class use (i.e. an instructor "dashboard").*
+\*\*\* *Programación R E es idéntica a Programación R, excepto que eliminamos las solicitudes de credenciales de Coursera al final de cada lección y, en su lugar, brindamos a los estudiantes la opción de enviar un correo electrónico a su instructor para notificarles que lo completaron. EN realidad es una especie de truco hasta que encontremos una solución más robusta para uso en clase (por ejemplo, un "panel de control" para el instructor).*
 
-#### Intermediate
+#### Intermedio
 
-- **Regression Models**: The basics of regression modeling in R
-- **Getting and Cleaning Data**: dplyr, tidyr, lubridate, oh my!
+- **Modelos de regresión**: los conceptos básicos del modelado de regresión en R
+- **Obtención y limpieza de datos**: dplyr, tidyr, lubridate, ¡vaya!
 
-#### Advanced
+#### Avanzado
 
-- **Statistical Inference**: This intermediate to advanced level course closely follows the
-[Statistical Inference course](https://www.coursera.org/course/statinference) of the Johns Hopkins 
-[Data Science Specialization](https://www.coursera.org/specialization/jhudatascience/1) on Coursera. It
-introduces the student to basic concepts of statistical inference
-including probability, hypothesis testing, confidence intervals and
-p-values. It concludes with an initiation to topics of particular
-relevance to big data, issues of multiple testing and resampling.
-- [**Advanced R Programming**](https://swirlstats.com/scn/arp.html)
+- **Inferencia Estadística**: Este curso de nivel intermedio-avanzado sigue de cerca el
+[Curso de Inferencia Estadística](https://www.coursera.org/course/statinference) de la
+[Especialización en ciencia de datos](https://www.coursera.org/specialization/jhudatascience/1) de la Universidad Johns Hopkins en Coursera. Este curso
+introduce al estudiante a los conceptos básicos de la inferencia estadística
+incluyendo probabilidad, prueba de hipótesis, intervalos de confianza y
+valores p. Concluye con una iniciación a temas de particular
+relevancia para big data, problemas de testeo múltiple y remuestreo.
+- [**Programación R avanzada**](https://swirlstats.com/scn/arp.html)
 
-Since our users come from a variety backgrounds, it's very hard to label material as **Beginner**, **Intermediate**, or **Advanced**. If you find something that is labelled **Beginner** to be challenging, please don't be discouraged. The first step of learning anything is to acknowledge that you are capable of understanding it. True understanding will come with time and practice.
+Dado que nuestros usuarios provienen de una variedad de entornos, es muy difícil etiquetar el material como **Principiante**, **Intermedio** o **Avanzado**. Si encuentra que algo que está etiquetado como **Principiante** es un reto, no se desanime. El primer paso para aprender algo es reconocer que eres capaz de entenderlo. La verdadera comprensión vendrá con el tiempo y la práctica.
 
-#### Course Authors
+#### Autores del curso
 
-- **Writing swirl Courses**: An interactive guides and example 
-  for swirl course authors. The first group of lessons cover basics. The rest cover 
-  special topics useful primarily as samples--points of departure for one's own material.
-  For more comprehensive documentation about writing your own swirl courses see http://swirlstats.com/swirlify/.
+- **Escribiendo Cursos de swirl**: Guías interactivas y ejemplos
+   para autores de cursos de swirl. El primer grupo de lecciones cubre los conceptos básicos. El resto cubre
+   temas especiales útiles principalmente como ejemplos o puntos de partida para el material propio.
+   Para obtener documentación más completa sobre cómo escribir sus propios cursos de swirl, consulte http://swirlstats.com/swirlify/.
 
-## Install and run a course automatically from swirl
+## Instalar y ejecutar un curso automáticamente desde swirl
 
-**This is the preferred method of installing courses.** It automates the process by allowing you to do everything right from the R console.
+**Este es el método preferido para instalar cursos.** Automatiza el proceso al permitirle hacer todo directamente desde la consola R.
 
-1) Make sure you have a recent version version of swirl:
+1) Asegúrese de tener una versión reciente de swirl:
 
 ```
 install.packages("swirl")
 ```
 
-2) Enter the following from the R console, **substituting the name of the course** that you wish to install:
+2) Ingrese lo siguiente desde la consola R, **sustituyendo el nombre del curso** que desea instalar:
 
 ```
-library(swirl)
-install_course("Course Name Here")
+biblioteca (swirl)
+install_course("Nombre del curso")
 swirl()
 ```
 
-For example, `install_course("R Programming")` will install the R Programming course. **Please note that course names are case sensitive!**
+Por ejemplo, `install_course("R_Programming")` instalará el curso de Programación en R. **¡Tenga en cuenta que los nombres de los cursos están en inglés y distinguen entre mayúsculas y minúsculas!**
 
-If that doesn't work for you...
+Si eso no funciona...
 
-## Install and run a course manually
+## Instalar y ejecutar un curso manualmente
 
-If the automatic course installation method outlined above does not work for you, then there's a simple alternative.
+Si el método de instalación automática del curso descrito anteriormente no funciona para usted, entonces hay una alternativa simple.
 
-1. Find the course you want to install on the [Swirl Course network website](https://swirlstats.com/scn/title.html).
-2. Follow the manual installation instructions on the course page.
+1. Busque el curso que desea instalar en el [sitio web de la red de cursos swirl](https://swirlstats.com/scn/title.html).
+2. Siga las instrucciones de instalación manual en la página del curso.
 
-If that does not work for you, consider taking a look at the 
-[legacy manual install instructions](https://github.com/swirldev/swirl_courses/wiki/Legacy-Manual-Install-Instructions-for-Swirl-Courses).
+Si eso no funciona para usted, considere echar un vistazo a la
+[instrucciones de instalación del manual heredado](https://github.com/swirldev/swirl_courses/wiki/Legacy-Manual-Install-Instructions-for-swirl-Courses).
 
-## Uninstall a course
+## Desinstalar un curso
 
-If you'd like to remove a course at any time, you can use `uninstall_course("Course Name Here")`.
+Si desea eliminar un curso en cualquier momento, puede usar `uninstall_course("Nombre del curso")`.
 
-## Using swirl in the classroom
+## Uso de swirl en el aula
 
-Instructors around the world are using swirl in their classrooms. We think this is awesome. If you're an instructor, please feel free to do the same -- free of charge. While your students may be paying to take your course or attend your institution, we simply ask that you don't charge people *directly* for the use of our software or instructional content.
+Instructores de todo el mundo están utilizando swirls en sus aulas. Creemos que esto es genial. Si eres un instructor, siéntete libre de hacer lo mismo, sin cargo. Si bien es posible que sus estudiantes paguen para tomar su curso o asistir a su institución, simplemente le pedimos que no cobre a las personas *directamente* por el uso de nuestro software o contenido instructivo.
 
-If you are not sure about a particular use case, don't hesitate to post a
-question to our [Google Group](https://groups.google.com/forum/#!forum/swirl-discuss).
+Si no está seguro acerca de algún caso de uso en particular, no dude en enviar una
+pregunta a nuestro [Grupo de Google](https://groups.google.com/forum/#!forum/swirl-discuss).
